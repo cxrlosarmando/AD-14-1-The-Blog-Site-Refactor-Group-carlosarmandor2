@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("/Fuente/PressStart2P-Regular.ttf");
+}
 html {
   height: 100%;
   width: 100%;
@@ -13,7 +17,7 @@ img {
   padding-bottom: 20px;
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Press Start 2P', cursive;
   color: #ffffff;
   padding: 20px;
 }
@@ -83,6 +87,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #555;
 }
