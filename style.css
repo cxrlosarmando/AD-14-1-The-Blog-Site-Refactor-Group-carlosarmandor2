@@ -59,7 +59,7 @@ p {
 
 
 body {
-  background-image: url(/pictures/Fondo.jpg);
+  background-image: url(./pictures/Fondo.jpg);
   margin: 0%;
   padding: 0;
 }
