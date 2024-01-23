@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulario de Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div id="nav-bar">
+                <a href="/index.html" class="titulo">Nintendo Blog</a>
+                <ul class="flex-container">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Acerca de Nosotros</a></li>
+                    <li><a href="./contactos.html">Contactos</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <h1>Contacto</h1>
+
+
+    <section class="formulario">
+        <form action="#" method="post" id="formularioContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+
+            <button type="submit" onclick="enviarFormulario()">Enviar</button>
+        </form>
+    </section>
+    <footer >
+        <div>
+            <ul id="Listasinpuntos">
+                <li><a href="https://github.com/Danazc">Daniela Zúñiga</a></li>
+                <li><a href="https://github.com/LilDie">Diego Contreras</a></li>
+                <li><a href="https://github.com/AestheteR">Carolina Reyes</a></li>
+                <li><a href="https://github.com/cxrlosarmando">Carlos Romero</a></li>
+                <li><a href="https://github.com/IA-slayer">Richard Mejías</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
