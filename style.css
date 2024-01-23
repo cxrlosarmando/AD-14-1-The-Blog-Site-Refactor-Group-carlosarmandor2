@@ -24,13 +24,7 @@ p {
   margin-bottom: 10px;
   margin-left: 10%;
 }
-.left {
-  display: inline;
-  float: left;
-  max-width: 45%;
-  margin-bottom: 10px;
-  margin-right: 10%;
-}
+
 
 body {
   background-image: url(/pictures/Fondo.jpg);  
